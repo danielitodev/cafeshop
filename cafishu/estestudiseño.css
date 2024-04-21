@@ -1,0 +1,670 @@
+.history,.mission,.values,.team,.location{
+  margin-bottom: 2rem;
+  text-align: center; 
+}
+
+
+
+.our-mission h3{
+
+  text-align: center; 
+
+}
+
+
+.title {
+  text-align: center;
+}
+
+
+
+body {
+  background-color: #b6e2ff;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'poppins',sans-serif;
+}
+
+
+
+
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  height: 90px;
+  width: 100%;
+ align-items: center;
+ justify-content: center;
+}
+
+header h1 {
+  display: inline;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+header .logo {
+color: #e4c7c7;
+font-size: 1.75em;
+font-weight: 600;
+text-decoration: none;
+
+}
+
+header ul {
+position: relative;
+
+}
+
+header ul li {
+list-style: none;
+position: relative;
+float: left;
+  
+  }
+  
+  header ul li a {
+   color: #e7ffd1;
+   font-size: 1.1em;
+   padding: 20px 25px;
+   text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+      
+      }
+
+      header ul li a:hover {
+      background: #3fa6eb;
+
+ }
+
+
+ header ul li ul {
+
+position: absolute;
+left: 0;
+width: 200px;
+background: #ff9090;
+display: none;
+
+ }
+
+
+ header ul li:hover > ul {
+display: block;
+
+ }
+
+ header ul li ul li {
+
+position: relative;
+width: 100%;
+border: 1px solid  rgba (0,0,0,0.2);
+
+ }
+
+ header ul li ul li ul {
+top: 0;
+left: 200px;
+
+ }
+
+ 
+ .navegacion {
+  float: right;
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  z-index: 1000;
+}
+
+.navegacion ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.navegacion ul li {
+  display: inline-block;
+  position: relative;
+  transition: .3s linear;
+  z-index: 1000;
+}
+
+.navegacion ul li:hover{
+  transform: scale(1.1);
+}
+
+
+.navegacion ul li a {
+color: #e6b6b6;
+text-align: center;
+ text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+padding: 12px 20px;
+transition: .3s linear;
+}
+
+
+
+.navegacion ul li:hover .hijos {
+  display: block;
+}
+
+
+
+.navegacion .submenu .hijos {
+  display: none;
+  background: #caffe6e0;
+  position: absolute;
+  width: 150%;
+
+}
+
+
+
+
+
+.navegacion .submenu .hijos li  {
+  display: block;
+  overflow: hidden;
+  border-bottom: none;
+
+}
+
+
+
+.navegacion .submenu .hijos li a {
+  display: block;
+
+}
+
+
+.navegacion .submenu .hijos li a:hover {
+  background: #fff;
+  color: #000;
+ 
+}
+
+.navegacion .submenu .hijos li:first-child a {
+  border-top: 1px solid #fff;
+ 
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+
+
+nav {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-member {
+  width: 300px;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.team-member h2 {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.team-member p {
+  margin: 5px 0 10px 0;
+  text-align: center;
+}
+
+
+
+
+
+.interior{
+max-width: 100%;
+padding: 0 10px;
+margin: auto;
+}
+
+.logo {
+float: left;
+padding: 5px 20px 0;
+}
+
+.logo img {
+height: 80px;
+
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .title-container h2 {
+        color: #333; 
+      }
+
+
+      .title-container {
+        text-align: center; 
+        display: block;
+        margin: 20px;
+        padding: 10px 0;
+        background-color: #f0f0f0;
+        border: 2px solid #333;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+      }
+
+
+
+     
+      
+
+
+
+      .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(239, 252, 245);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        transition: transform 3s;
+        
+      }
+      
+  
+    .menu-container:hover {
+        transform: translateY(-50px);
+
+    }
+
+     
+      .menu-title {
+        margin: 15px;
+        font-size: 36px;
+        color: #333;
+        background-color: #f5f5f5;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       
+        
+      }
+      
+      .coffee-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .coffee-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .coffee-item h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #333;
+      }
+      
+      .coffee-item p {
+        margin: 0;
+        font-size: 14px;
+        color: #777;
+        text-align: center;
+      }
+
+
+.featured-cofi.jpg {
+    margin-bottom: -20px;
+    height: 20px; 
+    background-color: #636363ce; 
+    color: #333; 
+    border-radius: 5px;
+    border: 1px solid #4e4d4d;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    content: "";
+
+}
+
+.featured-cofi.jpg img {
+
+    border-radius: 5px;
+    height: 120px; 
+    margin-bottom: 20px;
+    width: 80px; 
+  }
+
+
+.featured-cofi.jpg h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.featured-cofi.jpg p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.featured-cofi {
+text-align: center;
+padding: 20px;
+margin: 20px; 
+border: 1px solid #efd7d7b8; 
+border-radius: 5px; 
+
+}
+
+
+.featured-cofi img {
+border-radius: 5px;
+height: 200px; 
+margin-bottom: 20px;
+width: 300px; 
+
+}
+
+
+.featured-cofi h2 {
+
+margin-bottom: 20px;
+
+}
+
+
+.featured-cofi p {
+
+margin-bottom: 0;
+color: #000;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.team h2 {
+  margin-bottom: 20px;
+  
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.team-member {
+  background-color: #362f2fcc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.team-member h3 {
+  margin-bottom: 10px;
+
+}
+
+.team-member p {
+  margin-bottom: 0;
+}
+
+.title-container h2 {
+  color: #333;
+}
+
+.title-container {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 10px 0;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.our-history {
+  background-color: #bde1ff77;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.our-history h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.our-history p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.our-history.mission p {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  
+}
+
+.our-history.mission {
+  display: flex;
+}
+
+
+
+
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 5%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.image-container img {
+
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.image-container:hover img {
+  transform: rotate(10deg);
+}
+
+
+
+
