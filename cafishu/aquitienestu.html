@@ -20,17 +20,21 @@
   <div class="logo">
     <a href="#"><img src="images/logo-cafe.jpg" id="coffee-cup" alt="Coffee Shop Logo"></a>
   </div>
+
   <div class="interior">
-    <div class="menuToggle"></div>
+
     <nav class="navegacion">
-      <h1 id="title">Welcome to Our Coffee Shop</h1>
-      <ul>
+      <div class="titulo-menu-container">
+        <h1 class="title" id="title">Welcome to Our Coffee Shop</h1>
+        <button class="menu-btn" id="menu-btn"></button>
+    
+      <ul id="menu-items" class="menu-items">
         <li><a href="#home" id="home-link">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#" id="contact-link">Contact</a></li>
 
         <li class="submenu">
-          <a href="menu">Menu</a>
+          <a href="#menu">Menu</a>
           <ul class="hijos">
             <li><a href="#cappuchino" class="selected">Cappuc</a></li>
             <li><a href="#Latte">Latte</a></li>
@@ -40,6 +44,7 @@
           </ul>
         </li>
       </ul>
+    </div>
     </nav>
     <p id="page-description"></p>
   </div>
@@ -56,9 +61,7 @@
 
         <a href="https://wa.me/+573154605970" target="_blank" class="whatsapp-button">
           <i class="fab fa-whatsapp"></i>
-         
-          <span>order here</span>
-       
+          <span>PIDE AQUI</span>
         </a>
 
         <div class="menu-container-title">
@@ -69,31 +72,29 @@
       
      
       
-           <div id="menu-opciones" class="menu-opciones">
-     
+         <div id="menu-opciones" class="menu-opciones">
             <div class="menu-row">
+           
               <div class="menu-item-1 menu-item">
-                <img src="images/crx.jpg" alt="Cappuccino" class="mi-clase-1">
+                <img src="images/crx.jpg" alt="Cappuccino" class="menu-item-img">
                 <section class="cappuchino" id="cappuchino">
               <div>
                 <h3>Cappuccino</h3>
                   <p class="history-text">Milk, espresso, and a steamed milk foam</p>
-                  
                   <button class="select-button select-button-1">Select</button>
                   <span class="selected-box"></span>
                   <div hidden>
                     Hidden content
-                  
                 </div>
               
                 </div>
               </section>
-            </div>
+             </div>
 
 
-            <div class="menu-item-2 menu-item">
+             <div class="menu-item-2 menu-item">
               
-              <img src="images/crv.jpg" class="mi-clase-1" alt="Latte">
+              <img src="images/crv.jpg" class="menu-item-img" alt="Latte">
               <section class="Latte" id="Latte">
               <div>
                 <h3>Latte</h3>
@@ -102,59 +103,56 @@
                 <button class="select-button select-button-2">Select</button>
                 <span class="selected-box"></span>
                
-              </div>
-            </section>
-            </div>
+               </div>
+             </section>
+             </div>
 
-        
-            <div class="menu-item-3 menu-item">
-          
-              <img src="images/crx.jpg" class="mi-clase-1" alt="Espresso">
+             <div class="menu-item-3 menu-item">
+              <img src="images/crx.jpg" class="menu-item img" alt="Espresso">
               <section class="Espresso" id="Espresso"> 
               <div>
                 <h3>Espresso</h3>
-               
                 <p class="history-text">A concentrated coffee beverage</p>
                 <button class="select-button select-button-3">Select</button>
                 <span class="selected-box"></span>
               </div>
-              </section>
+               </section>
+              </div>
+
             </div>
 
-          </div>
-
-            <div class="menu-row">
+            <div class="menu-row-2">
 
             <div class="menu-item-4 menu-item">
 
-              <img src="images/cmia.png" class="mi-clase-1" alt="Americano">
+              <img src="images/cmia.png" class="menu-item-img" alt="Americano">
+              <section class="Americano" id="Americano">
               <div>
                 <h3>Americano</h3>
                 <p class="history-text">Espresso and hot water</p>
-     
                 <button class="select-button select-button-4">Select</button>
                 <span class="selected-box"></span>
-                
               </div>
+            </section>
             </div>
 
             <div class="menu-item-5 menu-item">
 
               <img src="images/cofi.jpg" class="mi-clase-1" alt="Mocha">
+              <section class="Mocha" id="Mocha">
               <div>
-
                 <h3>Mocha</h3>
-                
                 <p class="history-text">Chocolate and mocha sauce</p>
-               
                 <button class="select-button select-button-5">Select</button>
                 <span class="selected-box"></span>
               </div>
+            </section>
             </div>
 
 
             <div class="menu-item-6 menu-item">
                 <img src="images/cofi.jpg" class="mi-clase-1" alt="Mocha">
+                <section class="Mocha" id="Mocha">
                 <div>
                   <h3>Mocha</h3>
                   <p class="history-text">Chocolate and mocha sauce</p>
@@ -163,9 +161,9 @@
                 </div>
               </div>
 
-            </div>
+            </section>
+              </div>
           </div>
-
 
 
           <div class="our-history">
@@ -216,33 +214,25 @@
 
 
      
-          <h2 class="title">Meet Our Team</h2>
+          <h2 class="title-team">Meet Our Team</h2>
 
-          <section class="team">
-         
-        
-            <div class="team-member">
-        
-              <img src="images/jonzi.jpg" alt="Team Member 1">
-        
-              <h3>John Doe</h3>
-        
-              <p>Owner and Head Barista</p>
-        
-            </div>
-          
-        
-            <div class="team-member">
-              <img src="images/juanka.jpg" alt="Team Member 2">
-              <h3>Jane Smith</h3>
-              <p>Assistant Barista</p>
-            </div>
-
-           
-            
-            
-
-          </section>
+<section class="team">
+  <div class="team-member">
+    <img src="images/jonzi.jpg" alt="Team Member 1" class="team-member-image">
+    <div class="team-member-info">
+      <h3>John Doe</h3>
+      <p>Owner and Head Barista</p>
+    </div>
+  </div>
+  
+  <div class="team-member">
+    <img src="images/juanka.jpg" alt="Team Member 2" class="team-member-image">
+    <div class="team-member-info">
+      <h3>Jane Smith</h3>
+      <p>Assistant Barista</p>
+    </div>
+  </div>
+</section>
 
 
 <section class="location">
